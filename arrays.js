@@ -24,3 +24,5 @@ const array1 = [5, 12, 130, 99, 44];
 const primeiroElementoQueAtendeAcondicional = array1.find((element) => element > 50)
 
 console.log(primeiroElementoQueAtendeAcondicional);
+
+//teste

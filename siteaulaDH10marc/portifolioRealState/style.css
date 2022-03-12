@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+}
+
+/*body{
+    min-height: 100vh;
+    display: flex;
+}*/
+
+header{
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10rem;
+    padding: 0 50px;
+}
+.menu{
+    display: flex;
+    height: 50px;
+    width: 30px;
+}
+
+.logo, .logo2{
+    display: flex;
+    color: lightcoral;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: left;
+    justify-items: center;
+}
+
+.logo{
+    font-size: 35px;
+}
+
+.logo2{
+    font-size: 10px;
+}
+
+/*img{
+    width: auto;
+
+}*/
+.banner{
+    display: flex;
+    border: solid 5px lightslategray;
+    justify-content: center;
+    padding: 20px;
+    width: auto;
+}
+.item{
+    background-color: lightgrey;
+    border: solid 1px red;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: center;
+    gap: 5rem;
+    padding: 20px ;
+    width: auto
+}
+.descricao, .descricao2{
+    display: flex;
+    border: solid 1px yellow;
+    flex-flow: column;
+    justify-content: center;
+    padding: 0px 5px;
+}
+
+button{
+    display: flex;
+    justify-content: right;
+    font-size: medium;
+    background-color: black;
+    color: aquamarine;
+}
+/* ul{
+    border: 1px solid #e926b8;
+    display: flex;
+}
+li{
+    background-color: #c5e926;
+    font-size: 20px;
+    display: flex;
+    justify-content: center; 
+}*/
+p{
+    border: solid 1px coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #929191;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+span{
+    display: flex;
+    align-items: center;
+}
+
+.bannerEnd{
+    display: flex;
+    flex-flow: column;
+    border: solid 2px lightgreen;
+    justify-items: center;
+}
+.bannerimg{
+    display: flex;
+    flex-flow: column;
+    gap: 2px;
+    padding: 10px;
+    align-items: center;
+}
+footer{
+    display: flex;
+    border: solid 1px black;
+    background-color: lightgrey;
+    height: 220px;
+    flex: 1;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+/*ul li:last-child{
+    flex-wrap: wrap;
+    background-color: lightskyblue;
+    color: black;
+    padding: 10px;
+    justify-content: space-between;
+
+}*/

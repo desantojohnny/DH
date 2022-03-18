@@ -1,0 +1,8 @@
+body{
+    background-image: -o-linear-gradient();
+}
+
+menu{
+    flex-wrap: wrap;
+    text-align: justify;
+}

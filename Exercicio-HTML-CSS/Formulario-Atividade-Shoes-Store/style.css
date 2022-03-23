@@ -6,14 +6,11 @@ header{
     height: 13vh;
 }
 body{
-    height: 77vh;
+    height: 67vh;
 }
 footer{
-    height: 10vh;
+    height:20vh;
     background-color: #c2185b;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: aliceblue;
 }
 .menu{
@@ -29,7 +26,6 @@ footer{
 .img-menu{
     display: flex;
     align-content: center;
-    
 }
 
 ul{
@@ -40,14 +36,23 @@ ul{
 
 .menu-principal{
     display: flex;
+    position: relative;
 }
+
 .column-01{
     display: flex;
     justify-content: center;
     align-items: baseline;
     padding: 10px 10px;
     width: 50vw;
+}
 
+label{
+    font-size: 22px;
+}
+
+label{
+    font-size: 22px;
 }
 
 .column-02{
@@ -72,15 +77,25 @@ ul{
 .ftr-column{
     display: flex;
     border: 8px solid yellow;
+    height: 10vh;
+    justify-content: space-between;
+
+
 }
 
-.ftr-column-01{
+.ftr-column-01, .ftr-column-02, .ftr-column-03{
 display: flex;
 border: 5px solid green;
+height: 10vh;
+flex-direction: column;
+
 }
 
-.tex-footer, .tex-footer-01{
+.tex-footer{
     display: flex;
+    padding: 0 30px;
+    height: 20vh;
+    font-size: 17px;
     flex-direction: column;
 
 }

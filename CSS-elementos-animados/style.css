@@ -1,0 +1,113 @@
+
+
+body{
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: lightcoral;
+    text-align: center;
+    width: 100vw;
+    border: 2px solid lightgrey;
+    padding: 10px;
+    position: fixed;
+    z-index: 2;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    background-color: #a1a19f;
+    width: 100%;
+    position: relative;
+    padding: 100px 0 30px;
+}
+
+footer{
+    background-color: lightgreen;
+    text-align: center;
+    width: 100vw;
+    height: 10vh;
+    border: 2px solid lightgrey;
+    position: relative; /* só conseguimos utulizar o top, left, right e bottom quando o position está definido, assim ele permite a utilização de outros atributos */
+    top: 01px;
+    left: 01px;
+    right: 0;
+    bottom: 0;
+}
+
+/* Lembre-se que ao usar position as direções são invertidas. 
+A propriedade right: 20px, por exemplo, vai deslocar o objeto 20px para à esquerda.
+ */
+ 
+img{
+    width: 50%;
+    height: 50%;
+    /* position: absolute; */
+}
+
+.chat{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    z-index: 2;
+    right: 0;
+    bottom: 0;
+    padding: 40px 30px;
+    
+}
+
+.quadrado{
+    width: 300px;
+    height: 300px;
+    background-color: lightskyblue;
+    transition: all 450ms; /* mudar o border-radius para all */
+    position: relative;
+    left: 0; /* left: 850px; */
+
+}
+
+ .quadrado:hover{
+    border-radius: 50%;
+    background-color: lightpink;
+    position: relative;
+    left: 30px;
+
+} 
+
+.quadrado2{
+    background-color: lightgoldenrodyellow;
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    animation-name: crescendo;
+    animation-duration: 1500ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes crescendo {
+    0%{/* estado inicial da animação */
+       background-color: lightseagreen;     
+    }
+    100%{/* estado final da animação */
+          background-color: aquamarine;
+          height: 200px;
+          width: 200px;
+          opacity: 0.5;
+    }
+    
+}

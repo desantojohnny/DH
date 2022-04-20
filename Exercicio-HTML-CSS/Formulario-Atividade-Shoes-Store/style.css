@@ -55,6 +55,8 @@ footer{
 
 .formulario{
     padding: 30px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
 }
 
 ul{
@@ -144,4 +146,8 @@ flex-direction: column;
     font-size: 17px;
     flex-direction: column;
 
+}
+
+.submit{
+    box-shadow: 5px 10px 10px rgb(182, 182, 182);
 }
